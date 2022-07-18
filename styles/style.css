@@ -190,6 +190,10 @@ hr {
         width: 100%;
     }
 
+    .nav {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .players,
     .blogs,
     .courses {

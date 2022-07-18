@@ -13,6 +13,44 @@ main {
     align-items: center;
 }
 
+/* Menubar */
+
+header {
+    width: 1500px;
+    background: #562EFF;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 285px;
+    margin-right: 285px;
+    padding-top: 5px;
+}
+
+nav img {
+    width: 40px;
+    height: 51px;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-item {
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    padding-right: 30px;
+    color: #FFFFFF;
+}
+
 /* Top players */
 
 .container {
